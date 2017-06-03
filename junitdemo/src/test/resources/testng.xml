@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" verbose="1">
+<test name="Smoke test" parallel="classes" thread-count="1">
+    <packages>
+        <package name="AutoInfo"/>
+    </packages>
+</test>
+
+<test name="Junit test" junit="true">
+    <packages>
+        <package name="AutoInfo"/>
+    </packages>
+</test>
+</suite>
