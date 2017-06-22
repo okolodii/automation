@@ -35,28 +35,44 @@ import java.util.concurrent.TimeUnit;
 
 public class GoogleTest {
     private static final Logger LOG = Logger.getLogger(GoogleTest.class);
+    WebDriver driver;
+    WebElement elementLocator;
 
     @BeforeClass
     public static void precondition() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        LOG.info("Initialization");
     }
 
     @Test
-    public void testGoogle() throws InterruptedException {
-        LOG.info("Creating a new instance of the Chrome");
-        WebDriver driver = new ChromeDriver();
-        String searchedWord = "Lviv";
-
+    public void testGoogle() {
+        LOG.info("-----Creating a new instance of the Chrome-----");
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        LOG.info("Open URL");
+        LOG.info("1.1 Go to www.google.com");
         driver.get("http://www.google.com");
-        WebElement element = driver.findElement(By.id("lst-ib"));
-        element.sendKeys(searchedWord);
-        element.submit();
 
-        LOG.info("Verify that page title contains " + searchedWord);
+        LOG.info("1.2 Find something");
+        String searchedWord = "1984";
+        elementLocator = driver.findElement(By.id("lst-ib"));
+        elementLocator.sendKeys(searchedWord);
+        elementLocator.submit();
+
+        LOG.info("1.3 Collect and print all results titles");
+        //elementLocator = (WebElement) driver.findElements(By.xpath("//h3[@class='r']/a"));
+        //List<WebElement> titleList = (List<WebElement>) elementLocator;
+
+        List<WebElement> titleList = driver.findElements(By.xpath("//h3[@class='r']/a"));
+
+
+        for (WebElement ele : titleList) {
+            LOG.info(ele.getText());
+        }
+
+
+
+        //printList();
+/*
         new WebDriverWait(driver, 10).until(ExpectedConditions.titleContains(searchedWord));
         Assert.assertTrue("Title doesn't contain " + searchedWord, driver.getTitle().contains(searchedWord));
 
@@ -65,33 +81,23 @@ public class GoogleTest {
 
         for (WebElement ele : titleList) {
             LOG.info(ele.getText());
-
-            if (ele.getText().contains(searchedWord)) {
-                    LOG.info("^^^This element CONTAINS searched word " + searchedWord);
-                }
-                else {
-                LOG.info("^^^This element DOES NOT contain searched word " + searchedWord);
-            }
+            Assert.assertTrue("This title doesn't contain searched word " + searchedWord, ele.getText().contains(searchedWord));
         }
-        //titles.forEach(System.out::println);
-
-        LOG.info("Collect and print all links");
-        List<WebElement> linkList = driver.findElements(By.xpath("//h3[@class='r']/a"));
-        for(WebElement ele : linkList) {System.out.println(ele.getAttribute("href"));}
-
-        //LOG.info(driver.findElements(By.xpath("//h3[@class='r']/a")).forEach(el->););
+//        LOG.info("Collect and print all links");
+  //      List<WebElement> linkList = driver.findElements(By.xpath("//h3[@class='r']/a"));
+    //    for(WebElement ele : linkList) {LOG.info(ele.getAttribute("href"));}
 
         LOG.info("Go to page 2");
-        Thread.sleep(3000);
         element = driver.findElement(By.xpath("//*[@id='nav']//td[3]"));
+        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(element));
         element.click();
-
-        driver.quit();
+       // driver.quit();
     }
-
+*/
+/*
     @Test
     public void testGmail() throws AWTException, InterruptedException {
-        LOG.info("Creating a new instance of the Chrome");
+        LOG.info("-----Creating a new instance of the Chrome-----");
         WebDriver driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -120,13 +126,18 @@ public class GoogleTest {
 
         LOG.info("Send message");
         Robot r = new Robot();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         r.keyPress(KeyEvent.VK_CONTROL);
         r.keyPress(KeyEvent.VK_ENTER);
         r.keyRelease(KeyEvent.VK_CONTROL);
 
+        Thread.sleep(3000);
         LOG.info("Close browser");
-        driver.quit();
+        //driver.quit();*/
+
+
+
+
     }
 }
