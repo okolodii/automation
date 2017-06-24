@@ -27,8 +27,9 @@ public class Test1 extends BaseTest {
         new GmailPage().sentEmail(recipient, subject, message);
 
         LOG.info("5. Verify that message is in “sent” folder");
-        //new GmailPage().verifyMessageInSent(recipient, subject, message);
+        new GmailPage().verifyMessageInSent(recipient, subject, message);
 
-        //LOG.info("6. Remove message from the “sent” folder");
+        LOG.info("6. Remove message from the “sent” folder");
+        //new GmailPage().removeLastSentEmail();
     }
 }

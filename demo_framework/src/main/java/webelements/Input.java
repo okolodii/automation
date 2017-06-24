@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 
 public class Input {
     private WebElement element;
+
     public Input(WebElement element) {
         this.element = element;
     }

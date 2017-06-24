@@ -46,16 +46,8 @@ public class GmailPage {
     @FindBy(xpath = "//a[@title='Sent Mail']")
     private WebElement sentButton;
 
-    //@FindBy(className = "yP")
-    @FindBy(xpath = "(//span[@email])[1]")
-    private WebElement emailRecepient;
-
-    @FindBy(className = "bog")
-    private WebElement emailSubject;
-
-    //@FindBy(className = "y2")
-    @FindBy(className = "(//*[@class='y2'])[1]")
-    private WebElement emailMessage;
+    @FindBy(xpath = "//div[@role='checkbox']/div")
+    private WebElement checkBox;
 
     /* We initialize WebElement and pass it into Wrapper(Input, Button) constructor
      where we implement common bunch of methods used with the specific type of element */
@@ -85,10 +77,14 @@ public class GmailPage {
         waitForElementToAppear(sentButton);
         sentButton.click();
         Thread.sleep(3000);
-        //Assert.assertEquals(emailRecepient, email);
-       // Assert.assertTrue(emailSubject.getText().contains(subject), "zzz");
-        System.out.println("aaa + " + emailMessage);
-        //Assert.assertTrue(emailMessage.getText().contains(message), "bbbb");
+
+        Assert.assertTrue(BrowserDriver.getInstance().getPageSource().contains(email), "Sent box doesn't contain such email: "+email);
+        Assert.assertTrue(BrowserDriver.getInstance().getPageSource().contains(subject), "Sent box doesn't contain such subject: "+subject);
+        Assert.assertTrue(BrowserDriver.getInstance().getPageSource().contains(message), "Sent box doesn't contain such message: "+message);
+    }
+
+    public void removeLastSentEmail() {
+        new Button(checkBox).click();
     }
 
     private void waitForElementToAppear(WebElement element) throws InterruptedException {

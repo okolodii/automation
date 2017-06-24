@@ -17,7 +17,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
+            <state relative-caret-position="0">
               <caret line="39" column="19" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="39" selection-end-column="19" />
               <folding />
             </state>
@@ -54,25 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-959">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
               <folding>
-                <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
+                <element signature="method#precondition#0;class#Test1#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
+      <file leaf-file-name="New.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/New.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" column="88" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="88" />
+            <state relative-caret-position="485">
+              <caret line="54" column="103" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="103" />
               <folding>
-                <element signature="method#precondition#0;class#Test1#0" expanded="false" />
+                <element signature="method#precondition#0;class#New#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,22 +81,10 @@
       <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="method#precondition#0;class#Demo1#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Demo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-229">
-              <caret line="53" column="121" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="53" selection-end-column="121" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,11 +116,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Page.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NewClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Demo1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/New.java" />
       </list>
     </option>
   </component>
@@ -164,8 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Demo2">
+  <component name="RunManager" selected="TestNG.New">
     <configuration default="false" name="Test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="selenium_demo" />
@@ -291,34 +280,6 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test1.testGoogle" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="selenium_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test1" />
-      <option name="METHOD_NAME" value="testGoogle" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -403,6 +364,34 @@
       <option name="METHOD_NAME" value="Test1" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="New" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="selenium_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="New" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -626,18 +615,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Test1" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Test1.testGoogle" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Demo1" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Demo2" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Demo2.Test1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Demo1" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Demo2" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Demo2.Test1" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.New" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Demo2" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.Demo2.Test1" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Demo1" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Test1" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Test1.testGoogle" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.New" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Demo1" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Demo2" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Demo2.Test1" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -658,40 +647,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo2 - 2017.06.20 at 14h 16m 32s.xml">
-      <configuration name="Demo2" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 14m 14s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 10h 29m 26s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 16m 48s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 10h 31m 51s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 19m 36s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 10h 45m 42s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 20m 39s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 03m 08s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 21m 51s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 04m 26s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 26m 43s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 16m 04s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 27m 50s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 18m 20s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 29m 06s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 19m 42s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 29m 15s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo2_Test1 - 2017.06.18 at 11h 39m 56s.xml">
-      <configuration name="Demo2.Test1" configurationId="TestNG" />
+    <history-entry file="New - 2017.06.24 at 17h 29m 52s.xml">
+      <configuration name="New" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -703,24 +691,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3781965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37281293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2622108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26610824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -737,6 +725,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="88" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="88" />
+          <folding>
+            <element signature="method#precondition#0;class#Test1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="method#precondition#0;class#Demo1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="53" column="121" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="53" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
@@ -747,9 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="24" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +824,7 @@
         <state relative-caret-position="663">
           <caret line="53" column="121" lean-forward="false" selection-start-line="53" selection-start-column="121" selection-end-line="53" selection-end-column="121" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,9 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
           <caret line="130" column="5" lean-forward="false" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding>
-            <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,9 +903,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
           <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding>
-            <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,17 +956,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_demo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
+        <state relative-caret-position="0">
           <caret line="39" column="19" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="39" selection-end-column="19" />
           <folding />
         </state>
@@ -938,42 +980,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Demo2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="53" column="121" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="53" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="229">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Demo1.java">
+    <entry file="file://$PROJECT_DIR$/selenium_demo.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="method#precondition#0;class#Demo1#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="46" column="88" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="88" />
+        <state relative-caret-position="320">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="method#precondition#0;class#Test1#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-959">
-          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="626">
+          <caret line="57" column="78" lean-forward="true" selection-start-line="57" selection-start-column="78" selection-end-line="59" selection-end-column="25" />
           <folding>
-            <element signature="method#precondition#0;class#GoogleTest#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="method#precondition#0;class#Demo1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/New.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="54" column="103" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="103" />
+          <folding>
+            <element signature="method#precondition#0;class#New#0" expanded="false" />
           </folding>
         </state>
       </provider>
