@@ -13,7 +13,7 @@ public class Test1 extends BaseTest {
     BaseTest class provides methods that are used for each of the test and keeps WebDriver init on that level. */
 
     @Test
-    public void testLogin() throws InterruptedException {
+    public void Test1() throws InterruptedException {
         String recipient = "oleh_kolodii@epam.com";
         String subject = "Test subject";
         String message = "Test message";
